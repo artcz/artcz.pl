@@ -91,7 +91,7 @@ urls = [
      'description': "Show all the articles"},
 
     {'name': 'article',
-     'path': '/article/<slug>/',
+     'path': '/articles/<slug>/',
      'template_name': 'articles/detail.html',
      'description': 'Show single article'},
 ]
