@@ -81,7 +81,7 @@ def build():
 
 urls = [
     {'name': 'homepage',
-     'path': '/homepage/',
+     'path': '/',
      'template_name': 'index.html',
      'description': "Showe homepage"},
 
