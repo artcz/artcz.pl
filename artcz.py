@@ -56,8 +56,8 @@ def build():
     start = datetime.now()
 
     OUTPUT = {
-        # "index.html": "/home/",
         # "about.html": "/about/",
+        "index.html": "/",
         "articles/index.html": "/articles/",
     }
 
