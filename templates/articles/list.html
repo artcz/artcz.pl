@@ -1,0 +1,5 @@
+{% get_all_articles as articles %}
+
+{% for a in articles %}
+<p>{{ a.pub_date|date:"Y-m-d" }} <a href='{{ a.get_absolute_url }}'>{{ a.title }}</a></p>
+{% endfor %}

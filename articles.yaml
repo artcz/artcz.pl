@@ -1,0 +1,19 @@
+---
+
+- title: What if I wanted to write a long and complex article in markdown?
+  slug: long-and-complex
+  pub_date: 2018-02-09 09:30:11
+  content_file: data/articles/long_and_complex_post.md
+
+- title: Second article
+  slug: second-article
+  pub_date: 2018-02-09 09:20:11
+  content: |
+    Some longer content ąśðćźżłóćąśð
+
+    with some paragraphs
+
+- title: Hello World
+  slug: hello-world
+  pub_date: 2018-02-09 01:30:10
+  content: foo bar

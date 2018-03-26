@@ -1,0 +1,15 @@
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+</head>
+
+{% get_article slug as article %}
+
+<a href='{% url "articles" %}'>« go back to articles</a>
+
+<h1>{{ article.title }}</h1>
+<span>{{ article.pub_date }} ({{ article.pub_date|timesince }} ago)</span>
+
+<div id="content">
+  {{ article.get_content|safe }}
+</div>

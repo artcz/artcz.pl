@@ -1,3 +1,6 @@
+# for now lets work on local copy of djamix for simplicity
+djamix.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
